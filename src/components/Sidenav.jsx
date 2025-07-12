@@ -8,7 +8,6 @@ const Sidenav = () => {
   let distintcat = products && products.map((p) => p.category);
 
   distintcat = [...new Set(distintcat)];
-  // console.log(distintcat);
 
   return (
     <div className="w-[18%] h-screen bg-red-100 px-[1.2rem] py-[1.2rem]">
